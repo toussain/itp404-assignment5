@@ -1,0 +1,17 @@
+{{outlet}}
+
+  This artist has {{model.songs.length}} songs!
+
+<ul>
+  {{#each model.songs as |song|}}
+
+  {{#song-item song=song}}{{/song-item}}
+
+    <!-- <li> -->
+      <!-- Title: {{song.title}}<p></p>
+      Price: ${{song.price}}<p></p>
+      Playcount: {{song.playCount}}<p></p>
+      <p>-</p> -->
+    <!-- </li> -->
+  {{/each}}
+</ul>

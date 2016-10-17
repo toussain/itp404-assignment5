@@ -1,0 +1,10 @@
+.song img {
+  width: 20px;
+}
+body {
+  text-align: center;
+	font-family: 'Herculanum';
+	background: pink;
+  border: 2px dotted;
+  border: medium dashed blue;
+}

@@ -1,0 +1,21 @@
+{{song.title}}
+<br>
+Price: ${{song.price}}
+<br>
+PlayCount: {{song.playCount}}
+<br>
+
+{{#if isExpensive}}
+  $$
+{{else}}
+  $
+{{/if}}
+
+{{#if isPopular}}
+<img
+src="http://pngimg.com/upload/star_PNG1580.png" alt="">
+{{/if}}
+
+<!-- <i class="fa fa-thumbs-up" ></i> -->
+
+<p></p>
